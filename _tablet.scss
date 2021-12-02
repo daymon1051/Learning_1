@@ -1,0 +1,56 @@
+@media (max-width: 1024px) {
+    .center {
+        padding-right: calc(50% - 393px);
+        padding-left: calc(50% - 393px);
+    }
+
+    .main__arrow {
+        display: none;
+    }
+
+    
+
+    .drop-box {
+            display: grid;
+            grid-template-columns: repeat(8, 1fr) ;
+            padding-top: 64px;
+        
+        }
+    .drop__content {
+            display: grid;
+            grid-column: span 8;
+        }
+    
+
+    .for__item {
+        height: 268px;
+    }
+    .for__content {
+        gap: 30px;
+    }
+    
+    .footer {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        align-content: center;
+        height: auto;
+        padding-top: 32px;
+    }
+
+    .footer__logo {
+        display: none;
+    }
+
+
+    .form-title {
+        width: 343px;
+    }
+}
+
+@media (max-width: 833px) {
+        .center {
+            padding-left: 24px;
+            padding-right: 24px;
+        }
+}

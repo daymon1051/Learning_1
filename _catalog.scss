@@ -1,0 +1,114 @@
+
+
+.top__catalog {
+    background-image: url(img/catal_main.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 400px;
+    background-position: center;
+    margin-bottom: 64px;
+}
+
+
+
+.main__title_cat {
+    max-width: 270px;
+    font-weight: 600;
+    font-size: 64px;
+    line-height: 70px;
+    color: $color-text;
+    padding-top: 90px;
+}
+.catalog__nav {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 32px;
+}
+
+.sort {
+    display: flex;
+    align-items: center;
+    width: 288px;
+    height: 41px;
+    border: 1px solid #C4C4C4;
+    border-radius: 20px;
+    padding-left: 14px;
+    background-color: #ffffff; 
+    color: #000000;
+    background-image: url(img/Polygon.png);
+    background-position: 92%;
+    background-repeat: no-repeat;
+    outline: none;
+    text-align: center;
+}
+
+.select {
+    border: none;
+    text-align: center;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 20px;
+    color: #000000;
+    appearance: none;
+    transition: all, .5s;
+}
+
+.select:hover {
+    transform: scale(1.05);
+}
+.select-item {
+    max-width: 199px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 20px;
+    color: #000000;
+}
+
+.cat__link {
+    width: 137px;
+    height: 32px;
+    font-size: 16px;
+    line-height: 32px;
+    color: #000000;
+    margin-top: 64px;
+    margin-bottom: 40px;
+    text-decoration: none;
+}
+
+.cat__link_bottom {
+    width: 155px;
+    height: 24px;
+    font-size: 16px;
+    line-height: 24px;
+    text-decoration-line: none;
+    color: #000000;
+}
+
+.cat__link:hover {
+    text-decoration: underline;
+}
+
+.cat__link_bottom:hover {
+    text-decoration: underline;
+}
+
+.catalog__item {
+    margin-bottom: 64px;
+}
+
+.catalog__content {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    gap: 28px;
+}
+
+.catalog-product {
+    max-width: 379px;
+}
+
